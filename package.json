@@ -2,10 +2,12 @@
   "name": "knex-blog",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "scripts": {
-    "start": ".node_modules/.bin/nodemon server/index.js --ignore node_modules/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": ".node_modules/.bin/nodemon server/index.js --ignore node_modules/"
   },
   "author": "Roberto Santos",
   "license": "ISC",
